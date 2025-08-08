@@ -43,7 +43,8 @@ archinstall
     - Creat a subvolume called "root" and mount point to ```/```.
 
 8. Once Arch is installed, enter "chroot" (see [tutorial](https://youtu.be/xArcL6WVmwI?t=473)).
-- Execute the folling commands:
+
+- Execute the following commands in Arch root:
 
 ```
 sudo pacman -S efibootmgr grub mtools dosfstools
