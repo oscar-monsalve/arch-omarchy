@@ -20,3 +20,5 @@ lsblk
 ```
 cfdisk
 ```
+
+- On the free space, select "[new]" and
