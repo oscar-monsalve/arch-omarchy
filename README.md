@@ -21,4 +21,23 @@ lsblk
 cfdisk
 ```
 
-- On the free space, select "[new]" and
+- On the free space, select "[new]" and create a 1GB for the boot partition (/boot) (as linuxsystem).
+
+- Select "[new]" again and create the root partition (/) for the rest of the space left (as linuxsystem).
+
+- Exit and confirm.
+
+5. Enter the archinstall script:
+
+```
+archinstall
+```
+
+6. Follow [Omarchy's recommended installation settings](https://manuals.omamix.org/2/the-omarchy-manual/50/getting-started).
+
+7. Disk configuration:
+
+- Set the mount point of the EFI partition to ```/boot/efi```.
+- Set the mount point of the boot partition to ```/boot```.
+- For the root partition, set the fylesystem to ```btrfs```:
+    - Creat a subvolume called "root" and mount point to ```/```.
