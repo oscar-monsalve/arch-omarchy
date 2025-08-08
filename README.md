@@ -126,3 +126,10 @@ sudo pacman -S fuse3
 ```
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
+
+
+## Useful videos
+
+1. [Fix Grub In Arch Linux | UEFI](https://www.youtube.com/watch?v=dF5qzXQGCR8)
+2. [How to Remove Ubuntu(Linux) From Dual Boot In Windows 11/10](https://www.youtube.com/watch?v=mQyxtWrUNlE)
+
