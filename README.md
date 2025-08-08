@@ -27,7 +27,7 @@ cfdisk
 
 - Exit and confirm.
 
-5. Enter the archinstall script:
+5. Execute archinstall script:
 
 ```
 archinstall
@@ -41,3 +41,18 @@ archinstall
 - Set the mount point of the boot partition to ```/boot```.
 - For the root partition, set the fylesystem to ```btrfs```:
     - Creat a subvolume called "root" and mount point to ```/```.
+
+8. Once Arch is installed, enter "chroot" (see [tutorial](https://youtu.be/xArcL6WVmwI?t=473)).
+- Execute the folling commands:
+
+```
+sudo pacman -S efibootmgr grub mtools dosfstools
+```
+
+```
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
+```
+
+```
+grub-mkconfig -o /boot/grub/grub.cfg
+```
