@@ -132,6 +132,6 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 ## Useful videos
 
-1. [Fix Grub In Arch Linux | UEFI](https://www.youtube.com/watch?v=dF5qzXQGCR8)
-2. [How to Remove Ubuntu(Linux) From Dual Boot In Windows 11/10](https://www.youtube.com/watch?v=mQyxtWrUNlE)
-
+1. [Dual Boot Arch Linux Hyprland & Windows 11 | NVIDIA/AMD GPU - Easiest Method](https://www.youtube.com/watch?v=xArcL6WVmwI)
+2. [Fix Grub In Arch Linux | UEFI](https://www.youtube.com/watch?v=dF5qzXQGCR8)
+3. [How to Remove Ubuntu(Linux) From Dual Boot In Windows 11/10](https://www.youtube.com/watch?v=mQyxtWrUNlE)
