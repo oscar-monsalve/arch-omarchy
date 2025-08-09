@@ -39,8 +39,7 @@ cfdisk /dev/nvme0n1
 The partition should look like this:
 
 <figure>
-    <img src="images/partitions.jpeg" alt="partitions" width="400" height="auto"/>
-    <br>
+    <img src="images/partitions.jpeg" alt="partitions" width="800" height="auto"/>
 </figure>
 
 
