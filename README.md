@@ -2,6 +2,8 @@
 
 ## General steps
 
+Most of these steps apply for dual-booting with Windows.
+
 1. Download Arch Linux [Arch Linux ISO](https://mirrors.atlas.net.co/archlinux/iso/2025.08.01/archlinux-2025.08.01-x86_64.iso).
 
 
@@ -33,6 +35,13 @@ cfdisk /dev/nvme0n1
 - Select "[write]" -> type "yes" -> select "[quit]".
 
 - Type ```lsblk``` and identify the names for the /boot (nvme0n1p5) and root / (nvme0n1p6) partitions.
+
+The partition should look like this:
+
+<figure>
+    <img src="images/partitions.jpeg" alt="partitions" width="400" height="auto"/>
+    <br>
+</figure>
 
 
 5. Execute archinstall script. Follow [Omarchy's installation settings](https://manuals.omamix.org/2/the-omarchy-manual/50/getting-started).
